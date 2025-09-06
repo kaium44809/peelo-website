@@ -1,0 +1,62 @@
+/* Font-01 : */
+@import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
+/* Font-02 : */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+}
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: rgb(202, 201, 201);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* Heading Part starts here */
+.section-01 > .title-01 {
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+}
+.section-01 > .title-description-01 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+.section-01 {
+  line-height: 1px;
+}
+/* Heading Part ends here */
+/* Navbar section starts here */
+.nav-01 {
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-02 > a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-02 {
+  gap: 20px;
+  border: 2px dashed crimson;
+}
+.flex {
+  display: flex;
+}
+.title-02 {
+  font-size: 40px;
+}
+.nav-03 {
+  font-size: 20px;
+  gap: 10px;
+}
+.icon {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 12px;
+  border-bottom: 6px solid black;
+}
+/* Navbar section end here */
